@@ -1374,7 +1374,7 @@ justify-self: start;
     }
     .portfolio_popup-inner{
         overflow-y: scroll;
-        height: 95%;
+        height: auto;
     }
 
 }
