@@ -229,13 +229,3 @@ window.addEventListener('load', function() {
   }, 2000);
 });
 
-///------------------
-window.addEventListener('load', function() {
-  const div = document.getElementById('myDiv');
-  const viewportHeight = window.innerHeight; // ارتفاع الشاشة بوحدة الـ viewport
-  const divHeight = div.clientHeight; // ارتفاع الـ div
-
-  if (divHeight > 0.8 * viewportHeight) {
-    div.style.overflowY = 'scroll'; // إذا كان طول الـ div أكبر من 80% من ارتفاع الشاشة، فقم بعرض السكرول
-  }
-});
