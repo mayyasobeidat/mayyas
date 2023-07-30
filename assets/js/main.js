@@ -20,6 +20,15 @@ if(navClose){
   })
 }
 
+// إغلاق القائمة عند اختيار أي لينك
+const links = navMenu.querySelectorAll('a'); // اختيار جميع الروابط داخل النافذة
+
+links.forEach(link => {
+  link.addEventListener("click", () => {
+    navMenu.classList.remove('show-sidebar');
+  });
+});
+
 /*=============== SKILLS TABS ===============*/
 
 const tabs = document.querySelectorAll('[data-target]'),
