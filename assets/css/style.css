@@ -1372,10 +1372,6 @@ justify-self: start;
     .footer_links{
         justify-self: flex-start;
     }
-    .portfolio_popup-inner{
-        overflow-y: scroll;
-        height: auto;
-    }
 
 }
 
