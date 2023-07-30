@@ -1402,8 +1402,9 @@ justify-self: start;
         grid-template-columns: 1fr;
     }
 
-    .portfolio_popup-inner{
-        overflow-y: hidden;
+     .portfolio_popup-inner{
+        overflow-y: scroll;
+        height:60%;
     }
 
     .skills_title{
