@@ -235,6 +235,6 @@ window.addEventListener('load', function() {
   setTimeout(function() {
     preloader.style.display = 'none';
     MyContent.style.display = 'block';
-  }, 2000);
+  }, 100);
 });
 
