@@ -188,11 +188,11 @@ input{
     float: right;
     height: 100%;
     line-height: 100px;
-    padding: 0 1rem;
+    padding: 0 0.8rem;
     color: var(--title-color);
     font-weight: var(--font-medium);
     position: relative;
-    transition: 04s;
+    transition: 02s;
 }
 
 .btn_share{
